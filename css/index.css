@@ -1,0 +1,66 @@
+html,
+body {
+    height:100%;
+}
+
+body {
+    background-color:#000000;
+    font-family:Verdana;
+    font-size:1.5em;
+    margin:0;
+    filter:invert(100%);
+}
+
+.tabs-category {
+    margin:0 auto;
+    max-width:600px;
+    width:100%;
+    text-align:center;
+}
+
+.ui-tabs .ui-tabs-nav {
+    display:flex;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    flex:1;
+    display:flex;
+    white-space:normal;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+    flex:1;
+    text-align: center;
+}
+
+.datepicker {
+    position:relative;
+    height:60px;
+    background-color:#eee;
+    text-align:center;
+}
+
+.date {
+    position:relative;
+    top:15px;
+}
+
+.button-previous-date,
+.button-next-date {
+    position:absolute !important;
+    top:5px;
+    z-index:2;
+}
+
+.button-previous-date {
+    left:5px;
+}
+
+.button-next-date {
+    right:5px;
+}
+
+.ui-tabs .ui-tabs-panel {
+    padding:0 !important;
+    margin:0;
+}
